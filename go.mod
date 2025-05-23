@@ -2,7 +2,7 @@ module github.com/projectdiscovery/katana
 
 go 1.22.2
 
-toolchain go1.24.2
+toolchain go1.23.2
 
 require (
 	github.com/BishopFox/jsluice v0.0.0-20240110145140-0ddfab153e06
@@ -25,6 +25,7 @@ require (
 	github.com/projectdiscovery/wappalyzergo v0.2.25
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/rs/xid v1.5.0
+	github.com/stoewer/go-strcase v1.3.0
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/multierr v1.11.0
 	golang.org/x/net v0.35.0
@@ -93,7 +94,6 @@ require (
 	github.com/smacker/go-tree-sitter v0.0.0-20230720070738-0d0a9f78d8f8 // indirect
 	github.com/sorairolake/lzip-go v0.3.5 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
-	github.com/stoewer/go-strcase v1.3.0 // indirect
 	github.com/therootcompany/xz v1.0.1 // indirect
 	github.com/tidwall/btree v1.6.0 // indirect
 	github.com/tidwall/buntdb v1.3.0 // indirect
