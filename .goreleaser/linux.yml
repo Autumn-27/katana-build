@@ -17,29 +17,6 @@ builds:
     goarch:
       - amd64
 
-  - id: katana-linux-i386-generic
-    ldflags:
-      - -s -w
-    binary: katana
-    main: ./cmd/katana/main.go
-    goos:
-      - linux
-    goarch:
-      - 386
-
-  - id: katana-linux-arm
-    ldflags:
-      - -s -w
-    binary: katana
-    env:
-      - CGO_ENABLED=1
-      - CC=aarch64-linux-gnu-gcc
-    main: ./cmd/katana/main.go
-    goos:
-      - linux
-    goarch:
-      - arm64
-      
 archives:
 - format: zip
 
